@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Todo</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body class="app">
+        <header class="header">
+            <a href="/" class="header__link link">
+                <img src="bird128.png" height="32" width="32"/>
+                <span>Tensor Todo</span>
+            </a>
+            <input type="search" class="header__input" placeholder="Search by text..."/>
+            <div class="header__nav">
+                <a href="/" class="header__navLink link">Pricing</a>
+                <a href="/" class="header__navLink link">About</a>
+            </div>
+        </header>
+
+
+        <main class="content">
+            <aside class="accordion">
+                <div class="accordion__tag">Work</div>
+                <div class="accordion__tag">Home</div>
+                <div class="accordion__tag">Reading list</div>
+            </aside>
+            <div class="mainContent">
+                <input type="text" class="mainContent__input" placeholder="Add todo..."/>
+                <div class="mainContent__list">
+                    <div class="mainContent__item">
+                        First
+                        <div class="mainContent__itemActions">
+                            <button type="button" class="mainContent__itemAction">Complete</button>
+                            <button type="button" class="mainContent__itemAction">Delete</button>
+                        </div>
+                    </div>
+                    
+                    <div class="mainContent__item">
+                        Second
+                        <div class="mainContent__itemActions">
+                            <button type="button" class="mainContent__itemAction">Complete</button>
+                            <button type="button" class="mainContent__itemAction">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <footer class="footer">
+            <div class="footer__copyright">© 2021 ...</div>
+            <nav class="footer__nav">
+                <a href="/" class="footer__link link">Pricing</a>
+                <a href="/" class="footer__link link">Github</a>
+                <a href="/" class="footer__link link">About</a>
+            </nav>
+        </footer>
+    </body>
+</html>
