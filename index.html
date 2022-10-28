@@ -4,6 +4,7 @@
         <meta charset="UTF-8"/>
         <title>Todo</title>
         <link rel="stylesheet" href="styles.css"/>
+        <script src="./script.js" defer></script>
     </head>
     <body class="app">
         <header class="header">
@@ -26,21 +27,23 @@
                 <div class="accordion__tag">Reading list</div>
             </aside>
             <div class="mainContent">
-                <input type="text" class="mainContent__input" placeholder="Add todo..."/>
+                <form class="todo-add-form">
+                    <input type="text" class="mainContent__input" placeholder="Add todo..." />
+                </form>
                 <div class="mainContent__list">
                     <div class="mainContent__item">
-                        First
+                        <span class="todo__text">First</span>
                         <div class="mainContent__itemActions">
                             <button type="button" class="mainContent__itemAction">Complete</button>
-                            <button type="button" class="mainContent__itemAction">Delete</button>
+                            <button type="button" class="mainContent__itemAction mainContent__itemAction_type_delete">Delete</button>
                         </div>
                     </div>
                     
                     <div class="mainContent__item">
-                        Second
+                        <span class="todo__text">Second</span>
                         <div class="mainContent__itemActions">
                             <button type="button" class="mainContent__itemAction">Complete</button>
-                            <button type="button" class="mainContent__itemAction">Delete</button>
+                            <button type="button" class="mainContent__itemAction item-actions_type_delete">Delete</button>
                         </div>
                     </div>
                 </div>
