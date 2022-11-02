@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
+  "name": "webinars",
+  "version": "1.0.0",
+  "main": "base-js.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tensor-school/webinars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tensor-school/webinars/issues"
+  },
+  "homepage": "https://github.com/tensor-school/webinars#readme",
+  "description": ""
+}
