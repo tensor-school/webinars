@@ -1,11 +1,13 @@
 {
   "dependencies": {
+    "json-server": "^0.17.1",
     "typescript": "^4.8.4"
   },
   "name": "webinars",
   "version": "1.0.0",
   "main": "base-js.js",
   "scripts": {
+    "start": "json-server --watch db.json",
     "build": "tsc"
   },
   "repository": {
